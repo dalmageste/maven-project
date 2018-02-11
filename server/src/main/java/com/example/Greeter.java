@@ -1,4 +1,4 @@
-/*
+/**
  * This is package name
  */
 package com.example;
@@ -17,8 +17,8 @@ public class Greeter {
   }
 
   /**
-   * This method format a string
-   * @param String someone
+   * This method format a string.
+   * @param someone name of the person
    * @return greeting string
    */
   public final String greet(final String someone) {
