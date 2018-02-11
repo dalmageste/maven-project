@@ -5,6 +5,7 @@ package com.example;
 
 /**
  * This is a class.
+ * @author HP
  */
 public class Greeter {
 
@@ -15,10 +16,13 @@ public class Greeter {
 
   }
 
-  /*
+  /**
    * This method format a string
+   * @param String someone
+   * @return greeting string
    */
   public final String greet(final String someone) {
-    return String.format("Hello, %s!", someone);
+    return String.format("la vie est belle- Hello, %s!", someone);
   }
 }
+
